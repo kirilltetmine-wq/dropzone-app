@@ -1,0 +1,273 @@
+﻿python : 486 INFO: PyInstaller: 6.22.2, contrib hooks: 2026.6
+строка:1 знак:5
++ & { python -m PyInstaller Dropzone.spec 2>&1 | Out-File f:\uio\build_ ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (486 INFO: PyIns...b hooks: 2026.6 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+486 INFO: Python: 3.13.14
+510 INFO: Platform: Windows-10-10.0.19045-SP0
+510 INFO: Python environment: C:\Program Files\WindowsApps\PythonSoftwareFounda
+tion.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0
+522 INFO: Module search paths (PYTHONPATH):
+['F:\\uio',
+ 'C:\\Program '
+ 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz
+5n2kfra8p0\\python313.zip',
+ 'C:\\Program '
+ 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz
+5n2kfra8p0\\DLLs',
+ 'C:\\Program '
+ 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz
+5n2kfra8p0\\Lib',
+ 'C:\\Program '
+ 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz
+5n2kfra8p0',
+ 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3
+.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages',
+ 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3
+.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\win32'
+,
+ 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3
+.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\win32\
+\lib',
+ 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3
+.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\python
+win',
+ 'C:\\Program '
+ 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz
+5n2kfra8p0\\Lib\\site-packages',
+ 'F:\\uio']
+1837 INFO: Appending 'datas' from .spec
+1842 INFO: checking Analysis
+1842 INFO: Building Analysis because Analysis-00.toc is non existent
+1842 INFO: Looking for Python shared library...
+1842 INFO: Using Python shared library: C:\Program Files\WindowsApps\PythonSoft
+wareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\python313.dll
+1842 INFO: Running Analysis Analysis-00.toc
+1842 INFO: Target bytecode optimization level: 0
+1842 INFO: Initializing module dependency graph...
+1848 INFO: Initializing module graph hook caches...
+1903 INFO: Analyzing modules for base_library.zip ...
+5172 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\
+\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kf
+ra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks
+'
+6232 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\kiri
+l\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0
+\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks'
+7878 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\ki
+ril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8
+p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks'
+8949 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\kir
+il\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p
+0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks'
+9572 INFO: Caching module dependency graph...
+9666 INFO: Analyzing F:\uio\main.py
+9675 INFO: Processing standard module hook 'hook-PyQt6.py' from 'C:\\Users\\kir
+il\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p
+0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks'
+10709 INFO: Processing standard module hook 'hook-PyQt6.QtWidgets.py' from 'C:\
+\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_q
+bz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller
+\\hooks'
+13873 INFO: Processing standard module hook 'hook-PyQt6.QtCore.py' from 'C:\\Us
+ers\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5
+n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\h
+ooks'
+17999 INFO: Processing standard module hook 'hook-PyQt6.QtGui.py' from 'C:\\Use
+rs\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n
+2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\ho
+oks'
+33999 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users
+\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2k
+fra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hook
+s'
+34009 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\
+kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfr
+a8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks'
+34115 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\
+kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfr
+a8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinstaller_hooks_
+contrib\\stdhooks'
+34376 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:
+\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_
+qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstalle
+r\\hooks\\pre_safe_import_module'
+34380 INFO: SetuptoolsInfo: initializing cached setuptools info...
+36747 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored co
+py - creating alias to 'setuptools._vendor.backports'!
+36759 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\User
+s\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2
+kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hoo
+ks'
+36821 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\
+\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kf
+ra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks
+'
+36837 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:
+\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_
+qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstalle
+r\\hooks\\pre_safe_import_module'
+36892 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\U
+sers\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz
+5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\
+hooks\\pre_safe_import_module'
+36894 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy 
+- creating alias to 'setuptools._vendor.jaraco'!
+36918 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' fro
+m 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.
+3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyIns
+taller\\hooks\\pre_safe_import_module'
+36920 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored co
+py - creating alias to 'setuptools._vendor.more_itertools'!
+37124 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Us
+ers\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5
+n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\h
+ooks'
+37131 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' 
+from 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Pyth
+on.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\Py
+Installer\\hooks\\pre_safe_import_module'
+37461 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from
+ 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3
+.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInst
+aller\\hooks'
+37585 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\kiri
+l\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0
+\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks'
+38419 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:
+\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_
+qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstalle
+r\\hooks\\pre_safe_import_module'
+38682 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.tex
+t.py' from 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundatio
+n.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packag
+es\\PyInstaller\\hooks'
+38686 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py
+' from 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Py
+thon.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\
+PyInstaller\\hooks\\pre_safe_import_module'
+39776 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Us
+ers\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5
+n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\h
+ooks\\pre_safe_import_module'
+39778 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - crea
+ting alias to 'setuptools._vendor.tomli'!
+40477 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Us
+ers\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5
+n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\h
+ooks\\pre_safe_import_module'
+40479 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - crea
+ting alias to 'setuptools._vendor.wheel'!
+41078 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\
+kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfr
+a8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinstaller_hooks_
+contrib\\stdhooks'
+41211 INFO: Processing standard module hook 'hook-charset_normalizer.py' from '
+C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.1
+3_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinsta
+ller_hooks_contrib\\stdhooks'
+41438 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Us
+ers\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5
+n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinstaller_h
+ooks_contrib\\stdhooks'
+44414 INFO: hook-cryptography: cryptography does not seem to be using dynamical
+ly linked OpenSSL.
+45003 INFO: Processing standard module hook 'hook-google.api_core.py' from 'C:\
+\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_q
+bz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinstalle
+r_hooks_contrib\\stdhooks'
+46022 INFO: Processing standard module hook 'hook-httplib2.py' from 'C:\\Users\
+\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kf
+ra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinstaller_hooks
+_contrib\\stdhooks'
+46548 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\
+kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfr
+a8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks'
+46967 INFO: Processing standard module hook 'hook-googleapiclient.model.py' fro
+m 'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.
+3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyin
+staller_hooks_contrib\\stdhooks'
+49389 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\User
+s\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2
+kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hoo
+ks'
+50152 INFO: Analyzing hidden import 'pytz'
+50157 ERROR: Hidden import 'pytz' not found
+50157 INFO: Analyzing hidden import 'websockets'
+50165 INFO: Processing standard module hook 'hook-websockets.py' from 'C:\\User
+s\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2
+kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinstaller_hoo
+ks_contrib\\stdhooks'
+51371 INFO: Processing module hooks (post-graph stage)...
+52365 INFO: Performing binary vs. data reclassification (760 entries)
+53126 INFO: Looking for ctypes DLLs
+53205 INFO: Analyzing run-time hooks ...
+53210 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\kiril
+\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\
+\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks\\rtho
+oks'
+53214 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\kiril
+\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\
+\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks\\rtho
+oks'
+53221 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\User
+s\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2
+kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hoo
+ks\\rthooks'
+53226 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\
+\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_q
+bz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\_pyinstalle
+r_hooks_contrib\\rthooks'
+53229 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\ki
+ril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8
+p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks\\r
+thooks'
+53232 INFO: Including run-time hook 'pyi_rth_pyqt6.py' from 'C:\\Users\\kiril\\
+AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\L
+ocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\\hooks\\rthook
+s'
+53235 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 
+'C:\\Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.
+13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInsta
+ller\\hooks\\pre_find_module_path'
+53242 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\
+Users\\kiril\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qb
+z5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\PyInstaller\
+\hooks'
+53278 INFO: Creating base_library.zip...
+53308 INFO: Looking for dynamic libraries
+55835 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\kiril\
+\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\
+LocalCache\\local-packages\\Python313\\site-packages\\PyQt6\\Qt6\\bin']
+55835 INFO: Extra DLL search directories (PATH): ['C:\\Users\\kiril\\AppData\\L
+ocal\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\
+\local-packages\\Python313\\site-packages\\PyQt6\\Qt6\\bin']
+61004 INFO: Warnings written to F:\uio\build\Dropzone\warn-Dropzone.txt
+61079 INFO: Graph cross-reference written to F:\uio\build\Dropzone\xref-Dropzon
+e.html
+61138 INFO: checking PYZ
+61138 INFO: Building PYZ because PYZ-00.toc is non existent
+61138 INFO: Building PYZ (ZlibArchive) F:\uio\build\Dropzone\PYZ-00.pyz
+61798 INFO: Building PYZ (ZlibArchive) F:\uio\build\Dropzone\PYZ-00.pyz complet
+ed successfully.
+61836 INFO: checking PKG
+61837 INFO: Building PKG because PKG-00.toc is non existent
+61837 INFO: Building PKG (CArchive) Dropzone.pkg
+78561 INFO: Building PKG (CArchive) Dropzone.pkg completed successfully.
+78587 INFO: Bootloader C:\Users\kiril\AppData\Local\Packages\PythonSoftwareFoun
+dation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packa
+ges\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+78587 INFO: checking EXE
+78587 INFO: Building EXE because EXE-00.toc is non existent
+78587 INFO: Building EXE from EXE-00.toc
+78589 INFO: Copying bootloader EXE to F:\uio\dist\Dropzone.exe
+78675 INFO: Copying icon to EXE
+78717 INFO: Copying 0 resources to EXE
+78717 INFO: Embedding manifest in EXE
+78759 INFO: Appending PKG archive to EXE
+78977 INFO: Fixing EXE headers
+79721 INFO: Building EXE from EXE-00.toc completed successfully.
+79739 INFO: Build complete! The results are available in: F:\uio\dist

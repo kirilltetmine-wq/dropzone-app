@@ -1,0 +1,1 @@
+from gui.templates.case import CaseMixin  # noqa: F401

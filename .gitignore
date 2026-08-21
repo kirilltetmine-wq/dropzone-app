@@ -1,0 +1,30 @@
+# ── Secrets & credentials ──────────────────────────────
+data/client_secret.json
+data/token.pickle
+WheelOfFortune/config/settings.json
+
+# ── Python cache ───────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── IDE / OS ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Virtual environment ────────────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ── Build artifacts ────────────────────────────────────
+dist/
+build/
+*.egg-info/

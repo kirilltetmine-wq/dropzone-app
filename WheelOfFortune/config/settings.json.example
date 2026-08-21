@@ -1,0 +1,66 @@
+{
+    "general": {
+        "always_on_top": false,
+        "start_minimized": false,
+        "transparency": 90,
+        "auto_save_interval": 5,
+        "confirm_before_delete": true
+    },
+    "appearance": {
+        "dark_mode": true,
+        "accent_color": "#CCFF00"
+    },
+    "api": {
+        "auto_reconnect": true
+    },
+    "lottery": {
+        "default_keyword": "!join",
+        "case_sensitive": false,
+        "auto_delete_winners": true,
+        "auto_wheel": false,
+        "show_manual_add": true,
+        "duplicate_check": true,
+        "blacklist_enabled": false,
+        "blacklist": [],
+        "whitelist_enabled": false,
+        "whitelist": []
+    },
+    "wheels": {
+        "show_add_sector": true,
+        "show_equalize": true,
+        "show_delete": true,
+        "show_rename": true,
+        "show_auto_color": true,
+        "show_random_color": true,
+        "show_general_color": true
+    },
+    "logs": {
+        "auto_clear_entries": 1000,
+        "show_timestamps": true
+    },
+    "youtube": {
+        "bound_channel": "",
+        "channel_name": "",
+        "auto_track": false
+    },
+    "twitch": {
+        "oauth_token": "",
+        "channel_name": "",
+        "auto_track": false,
+        "client_id": ""
+    },
+    "chat": {
+        "max_messages": 200,
+        "show_timestamps": true,
+        "show_badges": true,
+        "show_platform_icons": true,
+        "mod_default_timeout": 300
+    },
+    "dice": {
+        "animation_enabled": true,
+        "auto_roll": false
+    },
+    "notifications": {
+        "system_notifications": true
+    }
+}
